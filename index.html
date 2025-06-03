@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Cloudflare Dashboard Test</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F1F3F5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #F7D400;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 600;
+            color: #1D1F21;
+        }
+
+        /* Main content area */
+        .main-content {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 800px;
+            padding: 40px;
+            margin-top: 50px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #1D1F21;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #4A4A4A;
+            margin-bottom: 30px;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="email"] {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            max-width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 24px;
+            background-color: #F7D400;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            color: #1D1F21;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #F1C800;
+        }
+
+        /* New JS Button Styles */
+        .js-button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #00B0FF;
+            border: none;
+            border-radius: 4px;
+            font-size: 18px;
+            cursor: pointer;
+            color: white;
+            font-weight: bold;
+        }
+
+        .js-button:hover {
+            background-color: #008CFF;
+        }
+
+        /* Footer Styles */
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #A2A2A2;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Cloudflare Dashboard Test
+</header>
+
+<div class="main-content">
+    <h1>Welcome to Cloudflare Dashboard Test</h1>
+    <p>Explore our Cloudflare dashboard with features that enhance your site's security and performance. Please leave your email to get notified with updates.</p>
+
+    <form action="#" method="post">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Submit Request</button>
+    </form>
+
+    <!-- New Button for JS Alert -->
+    <button class="js-button" onclick="showAlert()">Click Me for JS Alert</button>
+</div>
+
+<footer>
+    &copy; 2025 Cloudflare, Inc. All rights reserved.
+</footer>
+
+<script>
+    function showAlert() {
+        alert("JS script used");
+    }
+</script>
+
+</body>
+</html>
